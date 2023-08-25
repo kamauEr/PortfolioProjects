@@ -1,7 +1,7 @@
-/* An SQL Project that analyzez Kenya's COVID DATA
+                                          /* An SQL Project that analyzez Kenya's COVID DATA
 
- Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
- */
+                 Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types   */
+                                                            
 
 -- Looking at Total Cases vs Total Deaths in the Country as at 2023-08-23.
 -- Death percentage column - shows the Likely hood of dying if you contract covid in Kenya.
@@ -137,7 +137,6 @@ join PortfolioProject..covidVaccinations vac
 	dea.date = vac.date
 where dea.continent is not null
 -- order by 2,3
-
 select * from percentagepopulationvaccinated
 
 
